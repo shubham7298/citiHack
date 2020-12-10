@@ -1,0 +1,15 @@
+{
+  "short_name": "CitiHack - Macro Trends Prediction",
+  "name": "CitiHack - Macro Trends Prediction",
+  "icons": [
+    {
+      "src": "https://pentagram-production.imgix.net/wp/592ca89f19a1d/ps-citibank-01.jpg?rect=0%2C177%2C960%2C600&w=1500&fit=crop&fm=jpg&q=70&auto=format&h=935",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
