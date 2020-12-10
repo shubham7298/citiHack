@@ -22,13 +22,15 @@ import  MajorTriggers from './views/MajorTriggers';
 import  AlternativeInvestments from './views/AlternativeInvestments';
 import Stocks from "./views/assetClass/stocks";
 import Bonds from "./views/assetClass/bonds";
+import Technology from "./views/assetClass/technology";
+import Politics from "./views/assetClass/politics";
 
 export default [
   {
     path: "/",
     exact: true,
     layout: DefaultLayout,
-    component: () => <Redirect to="/overview" />
+    component: () => <Redirect to="/home" />
   },
   {
     path: "/overview",
@@ -96,6 +98,16 @@ export default [
     path:"/bonds",
     layout: DefaultLayout,
     component: Bonds
+  },
+  {
+    path:"/tech",
+    layout: DefaultLayout,
+    component: Technology
+  },
+  {
+    path:"/politics",
+    layout: DefaultLayout,
+    component: Politics
   },
 
 ];
